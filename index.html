@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <main class="logo_alura">
+        <section class="cabecalho">
+            <img class="imagem_logo" src="./assets/logo.svg" alt="logo alura">
+          <h1 class="texto-lado-logo"> <span>TEXTDECODER</span></h1>
+               
+            
+        </section>
+
+        <div class="top-container">
+            <div class="texto_principal">
+                <textarea class="texto_digite" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="lupa-result">
+               <textarea class="meu-input" " placeholder="Nenhuma mensagem encontrada"></textarea>
+               <p id="result" class="resultado_texto"></p>
+
+            </div>
+
+        </div>
+        
+        <div class="icone_exclamacao">
+            <img class="exclamacao" src="./assets/alert.svg" alt="icone de exclamação">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+       
+
+
+        <div class="botoes">
+            <button class="botao" id="botao1" onclick="criptografar()">Criptografar</button>
+            <button class= botao id= "botao2" onclick="descriptografar()">Descriptografar</button>
+            <button class="buttoncopiar" id="buttoncopiar" onclick="textocopy()">Copiar</button>
+        </div>
+            </div>
+                </section>
+            <footer>
+                    <p>&copy;Thaina Santos</p>
+                                        </footer>
+    </main>
+</body>
+</html>

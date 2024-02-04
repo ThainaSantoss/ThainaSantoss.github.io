@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(206, 201, 207);
+    display: flex;
+    margin: 0;
+    height: 100vh; 
+}
+
+.logo_alura .cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: #62c0ff; 
+    padding: 5px;
+    letter-spacing: 2px;
+    width: 50%;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.158); 
+    resize: none; 
+}
+
+.logo_alura .imagem_logo {
+    width: 25%;
+    padding: 5px; 
+}
+
+.logo_alura .texto-lado-logo {
+    display: flex;
+    padding: 5px;
+    font-family: 'Libre Baskerville', serif;
+    color: #0b314b;
+    font-display: swap; 
+    font-size: 40px;
+}
+
+.top-container {
+    display: flex;
+    align-items: start; 
+    justify-content: space-between; 
+    padding: 20px; 
+}
+
+.texto_principal {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.texto_digite {
+    width: 600px; 
+    height: 400px; 
+    padding: 10px;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    resize: none; 
+}
+
+.icone_exclamacao {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.icone_exclamacao p  {
+    margin-left: 5px;
+    font-size: 12px;
+}
+.exclamacao {
+    width: 10px;
+    height: auto;
+    
+}
+
+
+.botoes {
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+
+.botao {
+   display: flex;
+   width: 260px;
+   height: 60px;
+   padding: 12px;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   border-radius: 30px;
+    margin-top: 15px;
+  
+}
+
+
+#botao1 {
+    background-color: #0A3871;
+    color: white;
+   margin-left: 60px;
+  
+}
+
+#botao2 {
+    background-color: #D8DFE8;
+    color: #0A3871; 
+    margin-right: 300px;
+}
+
+
+
+
+.lupa-result  {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.meu-input {
+width: 600px; 
+height: 400px; 
+padding: 10px;
+font-family: 'Poppins', sans-serif; 
+font-size: 20px; 
+border: 1px solid #f8f8f8; 
+border-radius: 10px; 
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+resize: none; 
+}
+
+
+
+#buttoncopiar {
+    width: 260px;
+    height: 60px;
+    padding: 12px;
+    background-color: #0A3871; 
+    color: white; 
+    border: none; 
+    border-radius: 30px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 15px;
+    margin-right: 190px;
+    
+}
+
+.buttoncopiar:hover {
+    background-color: #6b82ce8f; 
+}
+
+footer {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+    align-items: center;
+    margin-top: 60px; 
+}
