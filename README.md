@@ -1,7 +1,9 @@
 # TEXTDECODER
-[![NPM](https://img.shields.io/npm/l/react)(]https://github.com/ThainaSantoss/ThainaSantoss.github.io/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/l/react)](]https://github.com/ThainaSantoss/ThainaSantoss.github.io/blob/main/LICENSE)
 
-# Sobre o projeto full stack web construida atravez do Challenge da Alura juntamente com a Oracle. 
+# Sobre o projeto 
+
+Projeto construido atravez do Challenge da Alura juntamente com a Oracle. 
 
 O decodificador funciona para criptografar e descriptografar paravras e frases,ainda com a função de copiar direto para a área de transferência.
 
